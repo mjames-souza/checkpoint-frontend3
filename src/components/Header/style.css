@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
+}
+.header-wrapper{
+    position: relative;
+    background: url(./img-header.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+  }
+  .main-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .main-info {
+    color: var(--primary-orange);
+    text-transform: uppercase;
+  }
+  .typed-text {
+    color: var(--primary-white);
+    font-size: 2rem;
+  }
+  .btn-main-offer{
+    text-decoration: none;
+    border: 1px solid var(--primary-red);
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: var(--primary-white);
+    margin: 2rem;
+    cursor: pointer;
+  }
+  .btn-main-offer:hover {
+    text-decoration: none;
+    background-color: var(--primary-hover-red);
+    color: var(--primary-white);
+    transition: .2s ease-in-out;
+  
+  }

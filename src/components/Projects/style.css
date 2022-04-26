@@ -1,0 +1,49 @@
+
+  
+  body{
+    font-family: "Roboto Condensed", sans-serif;
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.projects-title{
+    font-size: 3.5em;
+    color: var(--primary-orange);
+}
+
+.projects-container{
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    
+}
+.projects-description{
+    color: black;
+}
+
+.projects-text-area{
+    padding: 30px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+@media (max-width: 600px){
+    .projects-text-area{
+        padding: 30px;
+    }
+}
+
+@media (max-width: 1000px){
+    .projects-container{
+        height: 100%;
+        width: 100%;
+        margin-bottom: 0;
+    }
+}

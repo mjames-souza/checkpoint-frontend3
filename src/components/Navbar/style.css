@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
+body{
+  font-family: "Roboto Condensed", sans-serif;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo {
+  width: 16.25rem;
+  font-family: "Permanent Marker", cursive;
+  color: var(--primary-white) !important;
+  font-weight: 700;  
+}
+
+nav a.nav-link {
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  font-weight: 300;
+  border-top: 0.1875rem solid var(--primary-dark);
+
+}
+nav ul li{
+  text-transform: uppercase;
+
+}
+
+.navbar-nav > li > a {
+  color: var(--primary-white) !important;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid;
+  color: var(--primary-orange) !important;
+}
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-orange);
+}

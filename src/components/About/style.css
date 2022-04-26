@@ -1,0 +1,103 @@
+
+  
+  body{
+    font-family: "Roboto Condensed", sans-serif;
+  }
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.about-pic{
+    width: 100%;
+    height: 90vh;
+}
+
+.about-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.description-text-about{
+    color: black;
+    margin-top: 40px;
+    margin: 10px;
+    padding: 30px;
+    font-size: 2.2rem;
+}
+
+.about-text{
+    color: var(--primary-orange);
+    font-size: 4rem;
+    text-align: center;
+}
+
+@media (max-width: 600px){
+    .about-pic{
+        width: auto;
+        height: 30vh;
+    }
+    .description-text-about{
+        text-align: center;
+        font-size: 30px;
+    }
+    .about-text{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1230px){
+    .about-main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-pic{
+        width: auto;
+        height: 40vh;
+    }
+    .description-text-about{
+        text-align: center;
+        font-size: 30px;
+        color:black;
+    }
+    .about-text{
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 480px){
+    .about-main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-pic{
+        width: auto;
+        height: 30vh;
+    }
+    .description-text-about{
+        text-align: center;
+        font-size: 25px;
+    }
+    .about-text{
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 375px){
+    .description-text-about{
+        font-size: 22px;
+    }
+    .about-text{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 280px){
+    .about-pic{
+        height: 0;
+    }
+}
